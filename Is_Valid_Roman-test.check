@@ -1,0 +1,5 @@
+#include "Is_Valid_Roman.h"
+
+#test Is_Valid_Roman2test
+	fail_unless(Is_Valid_Roman("I") == 1, "Roman Function borked");
+	fail_unless(Is_Valid_Roman("V") == 1, "Roman Function borked");
